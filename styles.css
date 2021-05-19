@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700");
+html, body {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+}
+
+.card {
+    font-family: Kumbh Sans;
+    height: 374px;
+    width: 326px;
+    border: 2px hidden;
+    border-radius: 12px;
+    background-color: #FFFFFFFF;
+    background-image: url("images/bg-pattern-card.svg");
+    background-position: center top;
+    background-size: auto 140px;
+    background-repeat: repeat-x;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 55px 88px;
+}
+
+#name, #age, .stat-value {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#age, .stat, #city {
+    color: hsl(0, 0%, 59%);
+}
+
+.card>header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+#avatar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 92px;
+}
+
+#avatar>img {
+    border: 4px solid;
+    border-color: #FFFFFFFF;
+    border-radius: 50%;
+}
+
+.row {
+    margin: 0;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#name, #age {
+    margin: 0
+}
+
+#age{
+    margin-left: 8px;
+}
+
+#city {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#stats {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid;
+    border-color: hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.stat-value {
+    margin-bottom: 8px;
+    color: black;
+}
+
+@media only screen and (min-width: 480px) {
+    .card{
+        height: 374px;
+        width: 350px;
+    }
+}
