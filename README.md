@@ -32,4 +32,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Frontend Mentor - [@dedely](https://www.frontendmentor.io/profile/dedely)
+- Yours truly - [@dedely](https://www.frontendmentor.io/profile/dedely)
