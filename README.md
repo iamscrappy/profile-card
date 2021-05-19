@@ -18,7 +18,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution URL](https://github.com/dedely/profile-card)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-flex-and-grid-layouts-401t42sMw)
 - [Live Site URL](https://profile-card.dedely.dev)
 
 ## My process
