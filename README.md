@@ -18,8 +18,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dedely/profile-card)
-- Live Site URL: [Add live site URL here](https://profile-card.dedely.dev)
+- [Solution URL](https://github.com/dedely/profile-card)
+- [Live Site URL](https://profile-card.dedely.dev)
 
 ## My process
 
